@@ -111,7 +111,7 @@ void Decryption :: findplace(){                ///Number position
 void Decryption :: show(){
     findplace();
 
-    cout << "Decrypted String IS: ";
+    cout << endl <<"Decrypted String IS: ";
 
     for(int i=0; i<words.size(); i++){
         cout << (char)placeholder[i];
@@ -188,7 +188,7 @@ void Encryption :: show(){                      ///show function for output
     getlettertoprime();
     primeto90();
 
-    cout << "Encrypted String Is: ";
+    cout << endl << "Encrypted String Is: ";
 
     for(int i=0; i<wordprime.size(); i++){
 
